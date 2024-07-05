@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk8
 #FROM java:8
 #FROM openjdk:8
-
+ARG GOARCH=adm64
 MAINTAINER oddfar
 
 # 创建目录
